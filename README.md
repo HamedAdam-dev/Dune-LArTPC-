@@ -1,7 +1,7 @@
-# Dune-LArTPC-
-This is repo contains all my work from my experimental particle physics group internship under the supervision of isobel mawby and thomas jones.
+
 
 # DUNE Particle Identification
+This is repo contains all my work from my experimental particle physics group internship under the supervision of isobel mawby and thomas jones it includes BDTS CNNS for particle identification and extensive notes on how machine learning works.
 
 ## DUNE
 
