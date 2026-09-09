@@ -527,7 +527,7 @@ where $m_c$ is the metric for class $c$. The macro average treats all classes
 equally regardless of size, whereas the weighted average is dominated by the
 well-populated classes.
 
-![XGBoost classification report](figures/classification.png)
+![XGBoost classification report](classification.png)
 
 *Classification report for the XGBoost classifier, giving per-class precision,
 recall, F1 and support.*
@@ -541,7 +541,7 @@ class-to-class confusions.
 
 <!-- FLAG: placeholder filename. The XGBoost confusion matrix is currently
      my_normalised_matrix.png; confirm and update to the real file. -->
-![XGBoost confusion matrix](figures/my_normalised_matrix.png)
+![XGBoost confusion matrix](my_normalised_matrix.png)
 
 *Column-normalised confusion matrix for the XGBoost classifier: each column
 (predicted label) is normalised to unit sum, so the diagonal gives the per-class
@@ -549,14 +549,14 @@ purity (precision). Classes are electron ($e$), muon ($\mu$), photon, pion
 ($\pi$), kaon ($K$) and proton ($p$). The kaon column is heavily contaminated,
 reflecting its very low support.*
 
-![XGBoost feature importance](figures/my_feature_importanceplt.png)
+![XGBoost feature importance](my_feature_importanceplt.png)
 
 *Feature importance for the XGBoost classifier, ranking the input variables by
 their contribution to the trained model.*
 
 ### ROC curve
 
-![Pion ROC curve](figures/pion_roc.png)
+![Pion ROC curve](pion_roc.png)
 
 *Signal efficiency versus background rejection for the pion classifier, taking
 pions as signal and all other classes as background (one-vs-rest), traced by
@@ -580,7 +580,7 @@ strongly correlated pair reduces training cost and yields cleaner, more stable
 feature-importance rankings, with little loss in performance since the removed
 feature carries almost no independent information.
 
-![Feature correlation matrix](figures/correlation_matrix.png)
+![Feature correlation matrix](correlation_matrix.png)
 
 *Linear correlation matrix of the XGBoost input features.*
 
@@ -592,7 +592,7 @@ feature carries almost no independent information.
 
 *Classification report for the CNN trained on the U-plane start and end grids.*
 
-![CNN U-plane confusion matrix](figures/End&StartGridU%20Matrix.png)
+![CNN U-plane confusion matrix](End&StartGridU%20Matrix.png)
 
 *Confusion matrix for the CNN trained on the U-plane start and end grids.*
 
