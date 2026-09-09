@@ -588,7 +588,7 @@ feature carries almost no independent information.
 
 ## Results: CNN
 
-![CNN U-plane classification report](figures/End&StartGridU%20Report.png)
+![CNN U-plane classification report](End&StartGridU%20Report.png)
 
 *Classification report for the CNN trained on the U-plane start and end grids.*
 
